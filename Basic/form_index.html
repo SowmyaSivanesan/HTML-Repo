@@ -1,0 +1,149 @@
+<!-- Day2 Exercise Practice -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Resume Building</title>
+</head>
+<body>
+    <h1>Resume Building</h1>
+    <table id="resume_build">
+        <form action="car_obj">
+            <tr>
+                <td><label id="car_obj">CAREER OBJECTIVE</label> </td>
+                <td><textarea name="car_obj"></textarea></td>   
+            </tr>
+            <tr>
+                <td><label>Upload photo</label></td>
+                <td><input type="file" name="photo"></td>
+            </tr>
+            <tr>
+                <td> <label id="name">Name of the Person</label></td>
+                <td><input type="text" name="name" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth</label>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label id="address">Address</label></td>
+                <td><input type="text" name="address" placeholder="Address"></td>
+            </tr>
+            <tr>
+                <td><label>Phone Number</label></td>
+                <td><input type="number" name="phone_no" placeholder="Phone Number"></td>
+            </tr>
+            <tr>
+                <td><label>Email ID</label></td>
+                <td><input type="email" name="email_id" placeholder="Email ID"></td>
+            </tr>
+            <tr>
+                <td><label name="Gender">Gender</label></td>
+                <td><input type="radio" name="gender" value="Male">Male<input type="radio" name="gender" value="Female">Female</td>
+            </tr>
+            <tr>
+                <td><label>Marital status</label></td>
+                <td><input type="radio" name="marital_status" value="Single">Single<input type="radio" name="marital_status" value="Married">Married</td>
+            </tr>
+            <tr>
+                <td><label>Skill Set</label></td>
+                <td>
+                <input type="text" id="skill1"><br>
+                <input type="text" id="skill2"><br>
+                <input type="text" id="skill3"><br>
+                <input type="text" id="skill4"><br>
+                </td>
+            </tr>
+        </table>
+        <h3>Educational Qualification</h3>
+            <table id="edu">
+                <thead>
+                    <tr>
+                    <th>S.No.</th>
+                    <th>Courses</th>
+                    <th>Institution</th>
+                    <th>Board/University</th>
+                    <th>Year of Passing</th>
+                    <th>Percentage</th>
+                    <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label>1</label>
+                        <td><input type="text" name="course1" id="course1"></td>
+                        <td><input type="text" name="institution1" id="institution1"></td>
+                        <td><input type="text" name="board1" id="board1"></td>
+                        <td><input type="number" name="year_of_passing1" id="year_of_passing1"></td>
+                        <td><input type="number" name="percentage1" id="percentage1"></td>
+                        <td><input type="text" name="grade1" id="grade1"></td>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td><label>2</label>
+                        <td><input type="text" name="course2" id="course2"></td>
+                        <td><input type="text" name="institution2" id="institution2"></td>
+                        <td><input type="text" name="board2" id="board2"></td>
+                        <td><input type="number" name="year_of_passing2" id="year_of_passing2"></td>
+                        <td><input type="number" name="percentage2" id="percentage2"></td>
+                        <td><input type="text" name="grade2" id="grade2"></td>                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>3</label>
+                    <td><input type="text" name="course3" id="course3"></td>
+                        <td><input type="text" name="institution3" id="institution3"></td>
+                        <td><input type="text" name="board3" id="board3"></td>
+                        <td><input type="number" name="year_of_passing3" id="year_of_passing3"></td>
+                        <td><input type="number" name="percentage3" id="percentage3"></td>
+                        <td><input type="text" name="grade3" id="grade3"></td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Project Details</h3>
+            <table id="pro">
+                <thead>
+                    <th>S.No</th>
+                    <th>Title</th>
+                    <th>Duration</th>
+                    <th>Technology Used</th>
+                    <th>Description</th>
+                    <th>Link</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <label>
+                            <td>1</td>
+                        </label>
+                        <td><input type="text" name="Title1" id="Title1"></td>
+                        <td><input type="text" name="Duration1" id="Duration1"></td>
+                        <td><input type="text" name="technology_used1" id="technology_used1"></td>
+                        <td><textarea name="project_description1" id="project_description1"></textarea></td>
+                        <td><input type="url" name="link1" id="link1"></td>
+                    </tr>
+                    <tr>
+                        <label>
+                            <td>2</td>
+                        </label>
+                        <td><input type="text" name="Title2" id="Title2"></td>
+                        <td><input type="text" name="Duration2" id="Duration2"></td>
+                        <td><input type="text" name="technology_used2" id="technology_used2"></td>
+                        <td><textarea name="project_description2" id="project_description2"></textarea></td>
+                        <td><input type="url" name="link2" id="link2"></td>
+                    </tr>
+                    <tr>
+                        <label>
+                            <td>3</td>
+                        </label>
+                        <td><input type="text" name="Title3" id="Title3"></td>
+                        <td><input type="text" name="Duration3" id="Duration3"></td>
+                        <td><input type="text" name="technology_used3" id="technology_used3"></td>
+                        <td><textarea name="project_description3" id="project_description3"></textarea></td>
+                        <td><input type="url" name="link3" id="link3"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
+    </table>
+</body>
+</html>
