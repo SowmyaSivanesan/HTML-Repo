@@ -1,19 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
-<body>
-    <table>
-        <thead>
+<table id="registration">
+            <h4>Registration Form</h4>
+    </thead>
+    <tbody>
+        <form>
             <tr>
-                <th>Day/Period</th>
-                
+                <td><label>Enter Name</label></td>
+                <td><input type="text"></td>
             </tr>
-        </thead>
-    </table>
-</body>
+            <tr>
+                <td><label>Enter Password</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label>Enter Address</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Select Game</label>
+                <td><input type="checkbox">Hockey<br>
+                    <input type="checkbox">Football<br>
+                    <input type="checkbox">Badminton<br>
+                    <input type="checkbox">Cricket<br>
+                    <input type="checkbox">Volleyball<br>
+                </td>
+
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td><input type="radio" name="Male" value="Male">Male<input type="radio" name="Female"
+                        value="Female">Female</td>
+
+            </tr>
+            <tr>
+                <td><label>Select ur age</label>
+                <td>
+                    <select>
+                        <option value=" ">Select</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                    </select>
+            </tr>
+            <tr>
+                <td><label>Select Photo</label></td>
+                <td><input type="file"><td>jsoup-1.15.3.jar</td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" name="Click Me" value="Click Me">
+                    <input type="reset" name="" value="Reset">
+                    <input type="submit" name="" value="Submit">
+                </td>
+            </tr>
+        </form>
+    </tbody>
+</table>
 </html>
